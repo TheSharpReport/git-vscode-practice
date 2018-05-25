@@ -20,6 +20,7 @@ body {
 .container {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: 150px 250px 75px;
 	grid-template-areas:
 		"item1 item1 item1 item1 item1 item1"
 		"item2 item2 item2 item3 item3 item3"
